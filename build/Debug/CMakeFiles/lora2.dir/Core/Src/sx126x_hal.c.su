@@ -1,0 +1,9 @@
+C:/Users/Admin/sborki/lora2/Core/Src/sx126x_hal.c:19:13:CS_Low	8	static
+C:/Users/Admin/sborki/lora2/Core/Src/sx126x_hal.c:24:13:CS_High	8	static
+C:/Users/Admin/sborki/lora2/Core/Src/sx126x_hal.c:29:6:RadioPins_Init	32	static
+C:/Users/Admin/sborki/lora2/Core/Src/sx126x_hal.c:72:6:SX126x_Reset	8	static
+C:/Users/Admin/sborki/lora2/Core/Src/sx126x_hal.c:81:6:SX126x_WaitOnBusy	24	static
+C:/Users/Admin/sborki/lora2/Core/Src/sx126x_hal.c:94:6:SX126x_WriteCommand	24	static
+C:/Users/Admin/sborki/lora2/Core/Src/sx126x_hal.c:112:6:SX126x_ReadCommand	40	static
+C:/Users/Admin/sborki/lora2/Core/Src/sx126x_hal.c:130:9:SX126x_GetStatus	24	static
+C:/Users/Admin/sborki/lora2/Core/Src/sx126x_hal.c:146:6:SX126x_TestCommunication	24	static

@@ -1,0 +1,7 @@
+C:/Users/Admin/sborki/lora2/Core/Src/main.c:73:5:main	32	static
+C:/Users/Admin/sborki/lora2/Core/Src/main.c:158:6:SystemClock_Config	112	static
+C:/Users/Admin/sborki/lora2/Core/Src/main.c:202:13:MX_RTC_Init	8	static
+C:/Users/Admin/sborki/lora2/Core/Src/main.c:244:13:MX_SPI1_Init	8	static
+C:/Users/Admin/sborki/lora2/Core/Src/main.c:284:13:MX_SPI2_Init	8	static
+C:/Users/Admin/sborki/lora2/Core/Src/main.c:324:13:MX_GPIO_Init	48	static
+C:/Users/Admin/sborki/lora2/Core/Src/main.c:356:6:Error_Handler	8	static,ignoring_inline_asm
