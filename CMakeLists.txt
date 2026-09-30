@@ -51,14 +51,17 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     Core/Src/stm32f0xx_hal_msp.c
     Core/Src/sysmem.c
     Core/Src/syscalls.c
-    Core/Src/sx126x_hal.c
+    Drivers/LoRaMac-node/src/radio/sx126x/sx126x.c
+    Drivers/LoRaMac-node/src/radio/sx126x/radio.c
 )
 
-
-# Add include paths
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
-    # Add user defined include paths
+    Drivers/LoRaMac-node/src/radio
+    Drivers/LoRaMac-node/src/radio/sx126x
+    Drivers/LoRaMac-node/src/system
+    Drivers/LoRaMac-node/src/boards
 )
+
 
 # Add project symbols (macros)
 target_compile_definitions(${CMAKE_PROJECT_NAME} PRIVATE

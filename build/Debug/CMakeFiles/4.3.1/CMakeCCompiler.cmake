@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc.exe")
+set(CMAKE_C_COMPILER "C:/Users/Admin/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-gcc.exe")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "14.3.1")
@@ -24,11 +24,11 @@ set(CMAKE_C_COMPILER_ARCHITECTURE_ID "armv6")
 
 
 
-set(CMAKE_AR "C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-ar.exe")
-set(CMAKE_C_COMPILER_AR "C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ar.exe")
-set(CMAKE_RANLIB "C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-ranlib.exe")
-set(CMAKE_C_COMPILER_RANLIB "C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ranlib.exe")
-set(CMAKE_LINKER "C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/bin/arm-none-eabi-g++.exe")
+set(CMAKE_AR "C:/Users/Admin/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-ar.exe")
+set(CMAKE_C_COMPILER_AR "C:/Users/Admin/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-gcc-ar.exe")
+set(CMAKE_RANLIB "C:/Users/Admin/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-ranlib.exe")
+set(CMAKE_C_COMPILER_RANLIB "C:/Users/Admin/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-gcc-ranlib.exe")
+set(CMAKE_LINKER "C:/Users/Admin/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-g++.exe")
 set(CMAKE_LINKER_LINK "")
 set(CMAKE_LINKER_LLD "")
 set(CMAKE_C_COMPILER_LINKER "NOTFOUND")
@@ -79,7 +79,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/lib/gcc/arm-none-eabi/14.3.1/include;C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/lib/gcc/arm-none-eabi/14.3.1/include-fixed;C:/ST/STM32CubeCLT_1.22.0/GNU-tools-for-STM32/arm-none-eabi/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "C:/Users/Admin/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/lib/gcc/arm-none-eabi/14.3.1/include;C:/Users/Admin/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/lib/gcc/arm-none-eabi/14.3.1/include-fixed;C:/Users/Admin/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/arm-none-eabi/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

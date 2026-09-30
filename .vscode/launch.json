@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "STM32 Debug (ST-Link)",
+      "type": "stlinkgdbtarget",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "executable": "${workspaceFolder}/build/Debug/lora2.elf",
+        "imagesAndSymbols": [
+        { "imageFileName": "${workspaceFolder}/build/Debug/lora2.elf" }
+        ],
+      "runEntry": "main",
+      "device": "STM32F072RB",
+      "serverApplication": "C:/ST/STM32CubeCLT_1.22.0/STLink-gdb-server/bin/ST-LINK_gdbserver.exe",
+      "stlinkPath": "C:/ST/STM32CubeCLT_1.22.0/STLink-gdb-server/bin/STM32_Programmer_CLI.exe",
+      "svdFile": "",
+      "showDevDebugOutput": "none"
+    }
+  ]
+}
