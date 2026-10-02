@@ -45,14 +45,16 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 # Add sources to executable
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
-    Core/Inc/main.h
     Core/Src/main.c
     Core/Src/stm32f0xx_it.c
     Core/Src/stm32f0xx_hal_msp.c
     Core/Src/sysmem.c
     Core/Src/syscalls.c
-    Drivers/LoRaMac-node/src/radio/sx126x/sx126x.c
+    Core/Src/hw_board.c
+    Core/Src/sx1262.c
+    Core/Src/sx126x-board.c
     Drivers/LoRaMac-node/src/radio/sx126x/radio.c
+    Drivers/LoRaMac-node/src/radio/sx126x/sx126x.c
 )
 
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE

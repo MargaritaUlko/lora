@@ -109,20 +109,50 @@ build CMakeFiles/lora2.dir/startup_stm32f072xb.s.obj: ASM_COMPILER__lora2_unscan
   OBJECT_FILE_DIR = CMakeFiles\lora2.dir
   TARGET_SUPPORT_DIR = CMakeFiles\lora2.dir
 
-build CMakeFiles/lora2.dir/Drivers/LoRaMac-node/src/radio/sx126x/sx126x.c.obj: C_COMPILER__lora2_unscanned_Debug C$:/Users/Admin/sborki/lora2/Drivers/LoRaMac-node/src/radio/sx126x/sx126x.c || cmake_object_order_depends_target_lora2
+build CMakeFiles/lora2.dir/Core/Src/hw_board.c.obj: C_COMPILER__lora2_unscanned_Debug C$:/Users/Admin/sborki/lora2/Core/Src/hw_board.c || cmake_object_order_depends_target_lora2
   CONFIG = Debug
   DEFINES = -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER
-  DEP_FILE = CMakeFiles\lora2.dir\Drivers\LoRaMac-node\src\radio\sx126x\sx126x.c.obj.d
+  DEP_FILE = CMakeFiles\lora2.dir\Core\Src\hw_board.c.obj.d
   FLAGS = -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11
   INCLUDES = -IC:/Users/Admin/sborki/lora2/Drivers/LoRaMac-node/src/radio -IC:/Users/Admin/sborki/lora2/Drivers/LoRaMac-node/src/radio/sx126x -IC:/Users/Admin/sborki/lora2/Drivers/LoRaMac-node/src/system -IC:/Users/Admin/sborki/lora2/Drivers/LoRaMac-node/src/boards -IC:/Users/Admin/sborki/lora2/cmake/stm32cubemx/../../Core/Inc -IC:/Users/Admin/sborki/lora2/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -IC:/Users/Admin/sborki/lora2/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/sborki/lora2/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -IC:/Users/Admin/sborki/lora2/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\lora2.dir
-  OBJECT_FILE_DIR = CMakeFiles\lora2.dir\Drivers\LoRaMac-node\src\radio\sx126x
+  OBJECT_FILE_DIR = CMakeFiles\lora2.dir\Core\Src
+  TARGET_SUPPORT_DIR = CMakeFiles\lora2.dir
+
+build CMakeFiles/lora2.dir/Core/Src/sx1262.c.obj: C_COMPILER__lora2_unscanned_Debug C$:/Users/Admin/sborki/lora2/Core/Src/sx1262.c || cmake_object_order_depends_target_lora2
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\lora2.dir\Core\Src\sx1262.c.obj.d
+  FLAGS = -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11
+  INCLUDES = -IC:/Users/Admin/sborki/lora2/Drivers/LoRaMac-node/src/radio -IC:/Users/Admin/sborki/lora2/Drivers/LoRaMac-node/src/radio/sx126x -IC:/Users/Admin/sborki/lora2/Drivers/LoRaMac-node/src/system -IC:/Users/Admin/sborki/lora2/Drivers/LoRaMac-node/src/boards -IC:/Users/Admin/sborki/lora2/cmake/stm32cubemx/../../Core/Inc -IC:/Users/Admin/sborki/lora2/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -IC:/Users/Admin/sborki/lora2/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/sborki/lora2/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -IC:/Users/Admin/sborki/lora2/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\lora2.dir
+  OBJECT_FILE_DIR = CMakeFiles\lora2.dir\Core\Src
+  TARGET_SUPPORT_DIR = CMakeFiles\lora2.dir
+
+build CMakeFiles/lora2.dir/Core/Src/sx126x-board.c.obj: C_COMPILER__lora2_unscanned_Debug C$:/Users/Admin/sborki/lora2/Core/Src/sx126x-board.c || cmake_object_order_depends_target_lora2
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\lora2.dir\Core\Src\sx126x-board.c.obj.d
+  FLAGS = -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11
+  INCLUDES = -IC:/Users/Admin/sborki/lora2/Drivers/LoRaMac-node/src/radio -IC:/Users/Admin/sborki/lora2/Drivers/LoRaMac-node/src/radio/sx126x -IC:/Users/Admin/sborki/lora2/Drivers/LoRaMac-node/src/system -IC:/Users/Admin/sborki/lora2/Drivers/LoRaMac-node/src/boards -IC:/Users/Admin/sborki/lora2/cmake/stm32cubemx/../../Core/Inc -IC:/Users/Admin/sborki/lora2/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -IC:/Users/Admin/sborki/lora2/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/sborki/lora2/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -IC:/Users/Admin/sborki/lora2/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\lora2.dir
+  OBJECT_FILE_DIR = CMakeFiles\lora2.dir\Core\Src
   TARGET_SUPPORT_DIR = CMakeFiles\lora2.dir
 
 build CMakeFiles/lora2.dir/Drivers/LoRaMac-node/src/radio/sx126x/radio.c.obj: C_COMPILER__lora2_unscanned_Debug C$:/Users/Admin/sborki/lora2/Drivers/LoRaMac-node/src/radio/sx126x/radio.c || cmake_object_order_depends_target_lora2
   CONFIG = Debug
   DEFINES = -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\lora2.dir\Drivers\LoRaMac-node\src\radio\sx126x\radio.c.obj.d
+  FLAGS = -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11
+  INCLUDES = -IC:/Users/Admin/sborki/lora2/Drivers/LoRaMac-node/src/radio -IC:/Users/Admin/sborki/lora2/Drivers/LoRaMac-node/src/radio/sx126x -IC:/Users/Admin/sborki/lora2/Drivers/LoRaMac-node/src/system -IC:/Users/Admin/sborki/lora2/Drivers/LoRaMac-node/src/boards -IC:/Users/Admin/sborki/lora2/cmake/stm32cubemx/../../Core/Inc -IC:/Users/Admin/sborki/lora2/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -IC:/Users/Admin/sborki/lora2/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/sborki/lora2/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -IC:/Users/Admin/sborki/lora2/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\lora2.dir
+  OBJECT_FILE_DIR = CMakeFiles\lora2.dir\Drivers\LoRaMac-node\src\radio\sx126x
+  TARGET_SUPPORT_DIR = CMakeFiles\lora2.dir
+
+build CMakeFiles/lora2.dir/Drivers/LoRaMac-node/src/radio/sx126x/sx126x.c.obj: C_COMPILER__lora2_unscanned_Debug C$:/Users/Admin/sborki/lora2/Drivers/LoRaMac-node/src/radio/sx126x/sx126x.c || cmake_object_order_depends_target_lora2
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\lora2.dir\Drivers\LoRaMac-node\src\radio\sx126x\sx126x.c.obj.d
   FLAGS = -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11
   INCLUDES = -IC:/Users/Admin/sborki/lora2/Drivers/LoRaMac-node/src/radio -IC:/Users/Admin/sborki/lora2/Drivers/LoRaMac-node/src/radio/sx126x -IC:/Users/Admin/sborki/lora2/Drivers/LoRaMac-node/src/system -IC:/Users/Admin/sborki/lora2/Drivers/LoRaMac-node/src/boards -IC:/Users/Admin/sborki/lora2/cmake/stm32cubemx/../../Core/Inc -IC:/Users/Admin/sborki/lora2/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc -IC:/Users/Admin/sborki/lora2/cmake/stm32cubemx/../../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/sborki/lora2/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F0xx/Include -IC:/Users/Admin/sborki/lora2/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\lora2.dir
@@ -137,7 +167,7 @@ build CMakeFiles/lora2.dir/Drivers/LoRaMac-node/src/radio/sx126x/radio.c.obj: C_
 #############################################
 # Link the executable lora2.elf
 
-build lora2.elf: C_EXECUTABLE_LINKER__lora2_Debug cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f0xx.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi_ex.c.obj CMakeFiles/lora2.dir/Core/Src/main.c.obj CMakeFiles/lora2.dir/Core/Src/stm32f0xx_it.c.obj CMakeFiles/lora2.dir/Core/Src/stm32f0xx_hal_msp.c.obj CMakeFiles/lora2.dir/Core/Src/sysmem.c.obj CMakeFiles/lora2.dir/Core/Src/syscalls.c.obj CMakeFiles/lora2.dir/startup_stm32f072xb.s.obj CMakeFiles/lora2.dir/Drivers/LoRaMac-node/src/radio/sx126x/sx126x.c.obj CMakeFiles/lora2.dir/Drivers/LoRaMac-node/src/radio/sx126x/radio.c.obj || cmake/stm32cubemx/STM32_Drivers
+build lora2.elf: C_EXECUTABLE_LINKER__lora2_Debug cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f0xx.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi_ex.c.obj CMakeFiles/lora2.dir/Core/Src/main.c.obj CMakeFiles/lora2.dir/Core/Src/stm32f0xx_it.c.obj CMakeFiles/lora2.dir/Core/Src/stm32f0xx_hal_msp.c.obj CMakeFiles/lora2.dir/Core/Src/sysmem.c.obj CMakeFiles/lora2.dir/Core/Src/syscalls.c.obj CMakeFiles/lora2.dir/startup_stm32f072xb.s.obj CMakeFiles/lora2.dir/Core/Src/hw_board.c.obj CMakeFiles/lora2.dir/Core/Src/sx1262.c.obj CMakeFiles/lora2.dir/Core/Src/sx126x-board.c.obj CMakeFiles/lora2.dir/Drivers/LoRaMac-node/src/radio/sx126x/radio.c.obj CMakeFiles/lora2.dir/Drivers/LoRaMac-node/src/radio/sx126x/sx126x.c.obj || cmake/stm32cubemx/STM32_Drivers
   CONFIG = Debug
   FLAGS = -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3
   LINK_FLAGS = -mcpu=cortex-m0  -T "C:/Users/Admin/sborki/lora2/STM32F072xx_FLASH.ld" --specs=nano.specs -Wl,-Map=lora2.map -Wl,--gc-sections -Wl,--print-memory-usage
